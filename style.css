@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar {
@@ -132,7 +132,7 @@ p {
 }
 
 .title::after {
-  content: '';
+  content: "";
   background: #ff523b;
   width: 80px;
   height: 5px;
@@ -187,7 +187,7 @@ small {
 .testimonial .col-3 {
   text-align: center;
   padding: 40px 20px;
-  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: transform 0.5s;
 }
@@ -255,7 +255,10 @@ small {
   margin-bottom: 20px;
 }
 
-.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
   min-width: 250px;
   margin-bottom: 20px;
 }
@@ -274,7 +277,8 @@ small {
   margin-bottom: 20px;
 }
 
-.footer-col-3, .footer-col-4 {
+.footer-col-3,
+.footer-col-4 {
   flex-basis: 12%;
   text-align: center;
 }
@@ -319,18 +323,18 @@ ul {
     overflow: hidden;
     transition: max-height 0.5s;
   }
-  
+
   nav ul li {
     display: block;
     margin-right: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  
+
   nav ul li a {
     color: #fff;
   }
-  
+
   .menu-icon {
     display: block;
     cursor: pointer;
@@ -342,24 +346,26 @@ ul {
   .row {
     text-align: center;
   }
-  
-  .col-2, .col-3, .col-4 {
+
+  .col-2,
+  .col-3,
+  .col-4 {
     flex-basis: 100%;
   }
-  
+
   .single-product .row {
     text-align: left;
   }
-  
+
   .single-product .col-2 {
     padding: 20px 0;
   }
-  
+
   .single-product h1 {
     font-size: 26px;
     line-height: 32px;
   }
-  
+
   .cart-info p {
     display: none;
   }
