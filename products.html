@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RedStore | Ecommerce Website Design</title>
+    <title> All Products - RedStore </title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,23 +18,23 @@
   </head>
   <body>
     <!-- Header Section -->
-    <div class="header">
+ 
       <div class="container">
         <div class="navbar">
           <div class="logo">
-           <a href="index.html"> <img src="/images/logo.png" width="125px" alt="RedStore Logo" /></a>
+            <img src="/images/logo.png" width="125px" alt="RedStore Logo" />
           </div>
           <nav>
             <ul id="MenuItems">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="products.html">Products</a></li>
-              <li><a href="">About</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>
-              <li><a href="acount.html">Account</a></li>
+              <li><a href="#account">Account</a></li>
             </ul>
           </nav>
           <div class="nav-icons">
-            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" /></a>
+            <a href="#cart"><i class="fas fa-shopping-cart"></i></a>
             <a href="#account"><i class="fas fa-user"></i></a>
             <div class="menu-icon" onclick="toggleMenu()">
               <i class="fas fa-bars"></i>
@@ -43,50 +43,32 @@
         </div>
 
         <!-- Hero Section -->
-        <div class="row">
-          <div class="col-2">
-            <h1>
-              Give Your Workout <br />
-              A New Style!
-            </h1>
-            <p>
-              Success isn't always about greatness. It's about consistency.
-              Consistent <br />
-              hard work gains success. Greatness will come.
-            </p>
-            <a href="#products" class="btn">Explore Now &#8594;</a>
-          </div>
-          <div class="col-2">
-            <img src="/images/image1.png" alt="Fitness Image" />
-          </div>
-        </div>
+       
       </div>
     </div>
 
     <!-- Featured Categories -->
-    <div class="categories">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-3">
-            <img src="/images/category-1.jpg" alt="Category 1" />
-          </div>
-          <div class="col-3">
-            <img src="/images/category-2.jpg" alt="Category 2" />
-          </div>
-          <div class="col-3">
-            <img src="/images/category-3.jpg" alt="Category 3" />
-          </div>
-        </div>
-      </div>
+    
     </div>
 
     <!-- Featured Products -->
     <div class="small-container">
-      <h2 class="title">Featured Products</h2>
-      <div class="row">
+      
+      <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+      <option>Default Sorting</option>
+      <option>Sort by Price</option>
+      <option>Sort by Popularity</option>
+      <option>Sort by Rating</option>
+      <option>Sort by Sale</option>
+        </select>
+        </div>
+
+        <div class="row">
         <div class="col-4">
-         <a href="productsdetails.html"> <img src="images/product-1.jpg" alt="Product 1" /></a>
-          <a href="productsdetails.html"><h4>Red Printed T-Shirt</h4></a>
+          <img src="/images/product-1.jpg" alt="Product 1" />
+          <h4>Red Printed T-Shirt</h4>
           <div class="rating">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -132,63 +114,7 @@
           </div>
           <p>$55.00</p>
         </div>
-      </div>
-      <h2 class="title">Branded Products</h2>
-      <div class="row">
-        <div class="col-4">
-          <img src="images/product-9.jpg" alt="Product 9" />
-          <h4>Black Branded Watch</h4>
-          <div class="rating">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <p>$50.00</p>
-        </div>
-        <div class="col-4">
-          <img src="images/product-10.jpg" alt="Product 9" />
-          <h4>Black Sports Shoes</h4>
-          <div class="rating">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <p>$40.00</p>
-        </div>
-        <div class="col-4">
-          <img src="images/product-11.jpg" alt="Product 9" />
-          <h4>sports shoes</h4>
-          <div class="rating">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <p>$70.00</p>
-        </div>
-        <div class="col-4">
-          <img src="images/product-12.jpg" alt="Product 9" />
-          <h4>Black Plane Trouser</h4>
-          <div class="rating">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <p>$49.00</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Latest Products -->
-    <div class="small-container">
-      <h2 class="title">Latest Products</h2>
+         <div class="small-container">
       <div class="row">
         <div class="col-4">
           <img src="/images/product-5.jpg" alt="Product 5" />
@@ -238,113 +164,72 @@
           </div>
           <p>$135.00</p>
         </div>
-      </div>
-    </div>
-
-    <!-- Offer Section -->
-    <div class="offer">
-      <div class="small-container">
         <div class="row">
-          <div class="col-2">
-            <img
-              src="/images/exclusive.png"
-              class="offer-img"
-              alt="Exclusive Offer"
-            />
+        <div class="col-4">
+          <img src="images/product-9.jpg" alt="Product 9" />
+          <h4>Black Branded Watch</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
           </div>
-          <div class="col-2">
-            <p>Exclusively Available on RedStore</p>
-            <h1>Smart Band 4</h1>
-            <small>
-              The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3)
-              AMOLED color full-touch display with adjustable brightness, so
-              everything is clear as can be.
-            </small>
-            <a href="#products" class="btn">Buy Now &#8594;</a>
-          </div>
+          <p>$50.00</p>
         </div>
+        <div class="col-4">
+          <img src="images/product-10.jpg" alt="Product 9" />
+          <h4>Black Sports Shoes</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$40.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-11.jpg" alt="Product 9" />
+          <h4>sports shoes</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$70.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-12.jpg" alt="Product 9" />
+          <h4>Black Plane Trouser</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$49.00</p>
+        </div>
+
       </div>
     </div>
+ </div>
+</div>
+</div>
+           <div class="page-btn">
+             <span>1</span>
+             <span>2</span>
+             <span>3</span>
+             <span>4</span>
+             <span>&#8594;</span>
+           </div>
 
-    <!-- Testimonial Section Review -->
-    <div class="testimonial">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-3">
-            <i class="fas fa-quote-left"></i>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-              efficitur lacus in lorem aliquet, sed facilisis nisi tincidunt.
-            </p>
-            <div class="rating">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-            <img src="/images/user-1.png" alt="User 1" />
-            <h3>Sean Parker</h3>
-          </div>
-          <div class="col-3">
-            <i class="fas fa-quote-left"></i>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-              efficitur lacus in lorem aliquet, sed facilisis nisi tincidunt.
-            </p>
-            <div class="rating">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <img src="/images/user-2.png" alt="User 2" />
-            <h3>Mike Smith</h3>
-          </div>
-          <div class="col-3">
-            <i class="fas fa-quote-left"></i>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-              efficitur lacus in lorem aliquet, sed facilisis nisi tincidunt.
-            </p>
-            <div class="rating">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-            <img src="/images/user-3.png" alt="User 3" />
-            <h3>Mabel Joe</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Brands Section -->
-    <div class="brands">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-5">
-            <img src="/images/logo-godrej.png" alt="Godrej" />
-          </div>
-          <div class="col-5">
-            <img src="/images/logo-oppo.png" alt="Oppo" />
-          </div>
-          <div class="col-5">
-            <img src="/images/logo-coca-cola.png" alt="Coca Cola" />
-          </div>
-          <div class="col-5">
-            <img src="/images/logo-paypal.png" alt="Paypal" />
-          </div>
-          <div class="col-5">
-            <img src="/images/logo-philips.png" alt="Philips" />
-          </div>
-        </div>
-      </div>
-    </div>
-
+</div>
+  
+    
     <!-- Footer -->
     <div class="footer">
       <div class="container">
@@ -388,7 +273,7 @@
       </div>
     </div>
 
-    <!-- toogle menu script-->
+   <!-- toogle menu script-->
      <script>
        var MenuItems = document.getElementById("MenuItems");
        MenuItems.style.maxHeight = "0px";
